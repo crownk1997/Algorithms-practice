@@ -15,6 +15,7 @@ public:
             return {};
         }
 
+        // check the invalid input
         for (int i = 0; i < length; i++) {
             if (input[i] < 0 || input[i] > length - 1) {
                 return {};
